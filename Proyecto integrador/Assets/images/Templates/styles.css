@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #208FE4;
+}
+
+.header{
+    width: 100%;
+    background: linear-gradient(45deg, #208FE4, #E42020);
+    padding: 1rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .h1{
+    background: linear-gradient(45deg, #208FE4, #E42020);
+    text-align: center;
+}
+
+
+.header .button{
+    background-color: aqua;
+    display: none;
+    
+}
+.header .svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.header .nav{
+    background-color: red;
+    margin-right: 2rem;
+    top: 1rem;
+}
+.header .ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header .li{
+    margin: 1rem;
+    list-style-type: none;
+    border-bottom: none;
+}
+
+@media screen and (max-width:480px){
+
+    .header .button{
+        display: block;
+    }
+    .header .nav{
+        width:100%
+    }
+    .header .ul{
+        flex-direction: column;
+    }
+}
+
+.h2 {
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(45deg, #208FE4, #E42020);
+}
+
+
+#perfil {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    border-style:outset;
+    border-radius: 100px;
+}
+
+#setup {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    border-style: double;
+    border-style: outset;
+    border-radius: 50px;
+
+}
+
+
+
+.about >h2 {
+    text-align: center;
+}
+
+.about >p {
+    justify-content: left;
+    margin: 15px;
+    padding: 50px;
+}
+
+.p {
+    text-align: justify;
+    justify-content:space-around;
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.proyectos {
+    font-size: 20px;
+    margin: 2rem;
+    right: 1rem;
+    padding: 4rem;
+    list-style-type: none;
+}
+
+.skills {
+    font-size: 20px;
+    margin: 0.5rem;
+    right: 1em;
+    padding: 0.5rem;
+}
+
+.skills-ul{
+    list-style-type: none;
+}
+
+.contact {
+    text-align: center;
+    font-size: 20px;
+    margin: 2rem;
+    padding-top: 2rem;
+    
+}
+
+.footer{
+    margin: 2rem;
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    
+}
+
+.footer-ul {
+    list-style-type: none;
+}
+
