@@ -1,16 +1,17 @@
 {
   "builds": [
     {
-      "src": "Proyecto integrador/Templates/index.html",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Proyecto integrador/Templates/index.html"
+      "dest": "/index.html"
     }
   ]
 }
+
 
   
