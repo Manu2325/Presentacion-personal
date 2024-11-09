@@ -1,0 +1,9 @@
+{
+    "builds": [
+      {
+        "src": "Proyecto integrador/Templates/index.html",
+        "use": "@vercel/static"
+      }
+    ]
+  }
+  

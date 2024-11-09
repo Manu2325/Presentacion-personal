@@ -1,0 +1,169 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+.header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #005bb5;
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav .li {
+    margin: 10px 0;
+}
+
+.nav .a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav .a:hover {
+    color: #ffa726;
+}
+
+/* Button Styling */
+.button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* About Section */
+#About_me {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#perfil {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+#My_pages{
+    display: grid;
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#My_skills{
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#My_skills > ul{
+    list-style: none;
+}
+
+.p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #005bb5;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        background: none;
+        padding: 0;
+    }
+
+    .nav .li {
+        margin: 0 15px;
+    }
+
+    .button {
+        display: none;
+    }
+}
+
+#Contacts {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #0073e6;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
