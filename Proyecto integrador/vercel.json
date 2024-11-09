@@ -1,9 +1,16 @@
 {
-    "builds": [
-      {
-        "src": "Proyecto integrador/Templates/index.html",
-        "use": "@vercel/static"
-      }
-    ]
-  }
+  "builds": [
+    {
+      "src": "Proyecto integrador/Templates/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Proyecto integrador/Templates/index.html"
+    }
+  ]
+}
+
   
